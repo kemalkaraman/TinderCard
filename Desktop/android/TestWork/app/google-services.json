@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514713322634",
+    "firebase_url": "https://testworkdb-1b7ef.firebaseio.com",
+    "project_id": "testworkdb-1b7ef",
+    "storage_bucket": "testworkdb-1b7ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514713322634:android:7e0fa9d726eefb48",
+        "android_client_info": {
+          "package_name": "com.example.kemal.testwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514713322634-vn99k79vq4buvfnn2ruff5ncpbo0ikn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kemal.testwork",
+            "certificate_hash": "f47c4b4fb9c827019499ec9abde774647b224cd7"
+          }
+        },
+        {
+          "client_id": "514713322634-ovkjpqafos78kmbfoei0np7smu99km0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXWrtEHVjVDRS2O2GY41emLwFTtTls2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514713322634-ovkjpqafos78kmbfoei0np7smu99km0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

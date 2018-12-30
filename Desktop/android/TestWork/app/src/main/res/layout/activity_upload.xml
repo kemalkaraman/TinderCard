@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <EditText
+        android:id="@+id/txtComment"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/postImageView"
+        android:layout_width="320dp"
+        android:layout_height="353dp"
+        android:layout_marginTop="25dp"
+        android:onClick="selectImage"
+        app:layout_constraintEnd_toEndOf="@+id/txtComment"
+        app:layout_constraintStart_toStartOf="@+id/txtComment"
+        app:layout_constraintTop_toBottomOf="@+id/txtComment"
+        app:srcCompat="@drawable/addimage" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:onClick="btnUpload"
+        android:text="Upload"
+        app:layout_constraintEnd_toEndOf="@+id/postImageView"
+        app:layout_constraintTop_toBottomOf="@+id/postImageView" />
+</android.support.constraint.ConstraintLayout>
